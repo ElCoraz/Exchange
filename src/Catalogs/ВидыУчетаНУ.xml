@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Catalog uuid="3bdc01cd-17b0-4d55-b675-361c28cee14d">
+		<InternalInfo>
+			<xr:GeneratedType name="CatalogObject.ВидыУчетаНУ" category="Object">
+				<xr:TypeId>d16b9652-3d86-4955-a78a-23226b313f54</xr:TypeId>
+				<xr:ValueId>7e82636d-b1fb-42f6-b1fe-f564c3f8e8e9</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogRef.ВидыУчетаНУ" category="Ref">
+				<xr:TypeId>afbc876d-928b-462a-bf6f-6f2a80ee0dbc</xr:TypeId>
+				<xr:ValueId>0b1273fa-edfc-4ad2-bc53-8cf845e44b7c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogSelection.ВидыУчетаНУ" category="Selection">
+				<xr:TypeId>1c0858de-ab2a-4c48-a8b3-5b6649015634</xr:TypeId>
+				<xr:ValueId>f73a09ed-dd82-4f21-b773-5e102c1e503f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogList.ВидыУчетаНУ" category="List">
+				<xr:TypeId>f4c4b949-6401-481c-b338-6a77d6277ff6</xr:TypeId>
+				<xr:ValueId>4c19d4ed-02c8-4717-9d09-dd73b61d6aec</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="CatalogManager.ВидыУчетаНУ" category="Manager">
+				<xr:TypeId>07c0fe1c-65e2-45fe-b172-bd9dd8873d32</xr:TypeId>
+				<xr:ValueId>a4070ef7-0580-4baa-af0f-ab6794170348</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыУчетаНУ</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>766e59ee-e184-422d-9b6e-406f6a0bd5d8</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Catalog>
+</MetaDataObject>

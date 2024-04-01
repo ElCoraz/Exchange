@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="1026a284-d37f-4630-8c8a-3ec7fe38d9b9">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИЛПеречислениеПолучателям" category="Object">
+				<xr:TypeId>6842a079-db76-4c20-bb2f-07a3de4e954a</xr:TypeId>
+				<xr:ValueId>d2c2c05f-51aa-4fa2-a0e6-b1d34c2faaa7</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИЛПеречислениеПолучателям" category="Ref">
+				<xr:TypeId>f94349a2-536a-4d8f-bb35-aceebd136eb6</xr:TypeId>
+				<xr:ValueId>f77e6e6d-a391-4288-84eb-cfac335f60d0</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИЛПеречислениеПолучателям" category="Selection">
+				<xr:TypeId>2e22edd9-067b-48fa-85a9-c4f0f7b4ea74</xr:TypeId>
+				<xr:ValueId>c4b94be0-bcde-4998-a7b1-ae49b976ce14</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИЛПеречислениеПолучателям" category="List">
+				<xr:TypeId>2bcf0873-501f-4c97-9be6-2bb13adb379d</xr:TypeId>
+				<xr:ValueId>917f14e2-c936-491b-b029-e55febb33c8c</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИЛПеречислениеПолучателям" category="Manager">
+				<xr:TypeId>b548782b-58c4-4ccd-b006-f4be2de3e134</xr:TypeId>
+				<xr:ValueId>e4770532-3d48-4347-b4a5-ee48bb284df9</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ИЛПеречислениеПолучателям</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>938d0158-490f-4134-a2aa-1eeff8833951</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects/>
+	</Document>
+</MetaDataObject>

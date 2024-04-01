@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Enum uuid="6184feb2-5b14-4f5e-882b-c28d505569bf">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.ВидыЗадолженностиПодотчетныхЛиц" category="Ref">
+				<xr:TypeId>d69bdf31-17b4-4152-9bf7-7712a752fd1f</xr:TypeId>
+				<xr:ValueId>0e9baf78-2243-4997-9c4d-ed35881de4d3</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.ВидыЗадолженностиПодотчетныхЛиц" category="Manager">
+				<xr:TypeId>207a43d6-7864-4e96-a70c-b2d60b0e1643</xr:TypeId>
+				<xr:ValueId>fd21cebf-7e97-42d1-a443-aadc50e6d847</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.ВидыЗадолженностиПодотчетныхЛиц" category="List">
+				<xr:TypeId>c3750463-41b3-4780-b590-70dae2e1fbd5</xr:TypeId>
+				<xr:ValueId>052e8b3d-0faa-4684-8244-7688e52ec010</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>ВидыЗадолженностиПодотчетныхЛиц</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>2f1cdd91-e60b-4e39-b6af-1867f5809d68</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

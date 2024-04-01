@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Enum uuid="de3772ab-8a46-4a1a-ac35-56e070747b12">
+		<InternalInfo>
+			<xr:GeneratedType name="EnumRef.СостоянияАВР" category="Ref">
+				<xr:TypeId>3a798002-051c-4e4f-95cd-2b09b22bc887</xr:TypeId>
+				<xr:ValueId>f60cea63-d410-4c60-b353-c102eed9818f</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumManager.СостоянияАВР" category="Manager">
+				<xr:TypeId>dbf19706-d413-4061-b4aa-cfc0d82ee67d</xr:TypeId>
+				<xr:ValueId>c9d397e4-06a9-48a3-b79a-0ea5e685f9ab</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="EnumList.СостоянияАВР" category="List">
+				<xr:TypeId>fea9dccf-4265-4ffb-a079-42204baa5501</xr:TypeId>
+				<xr:ValueId>6129fd58-644d-4f35-8118-00beb3788958</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СостоянияАВР</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>da57ba45-af53-4d28-b3a7-c92bf89799c1</ExtendedConfigurationObject>
+		</Properties>
+		<ChildObjects/>
+	</Enum>
+</MetaDataObject>

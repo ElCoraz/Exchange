@@ -1,0 +1,318 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.16">
+	<Document uuid="9dee8a38-5888-4c41-b68b-c1a9e017ef37">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.СписаниеТоваров" category="Object">
+				<xr:TypeId>a614a262-0041-4d7a-8755-63084b9d0cdb</xr:TypeId>
+				<xr:ValueId>59d420d5-64cd-4cfb-91bf-51f7afa381de</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.СписаниеТоваров" category="Ref">
+				<xr:TypeId>7ed00e35-5868-4073-bb45-039b5751a6b2</xr:TypeId>
+				<xr:ValueId>6a5daae1-2de9-402f-bc16-f0b6afececbb</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.СписаниеТоваров" category="Selection">
+				<xr:TypeId>982b70ef-012f-42f9-b3e2-0728fe9e0006</xr:TypeId>
+				<xr:ValueId>646c6670-fefc-4c5a-b1ec-4d7f75163271</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.СписаниеТоваров" category="List">
+				<xr:TypeId>1a4b3a5f-3c07-4c1a-a9cc-22ff4244c3a3</xr:TypeId>
+				<xr:ValueId>d0b10e49-f8dd-4bbb-971b-0db2e0aa4543</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.СписаниеТоваров" category="Manager">
+				<xr:TypeId>293a2ed3-7c34-4adc-beeb-5d42a656c99d</xr:TypeId>
+				<xr:ValueId>f70798b2-b017-4b73-8dfd-71b39d3732eb</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<Name>СписаниеТоваров</Name>
+			<Comment/>
+			<ExtendedConfigurationObject>ccb1eaf1-b82f-4ac5-8371-3a97075ed581</ExtendedConfigurationObject>
+			<NumberType>String</NumberType>
+			<NumberLength>11</NumberLength>
+			<NumberAllowedLength>Fixed</NumberAllowedLength>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="b656430c-69a8-4cd1-bde9-74fbaf33f70e">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Организация</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>492f7d5d-920b-41a6-b6bc-468f7af793d0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="a3892b49-17da-4795-b2bb-6b8f98b623f7">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ВидУчетаНУ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>64a38d1d-cf90-4417-8104-b9a767a144ab</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ВидыУчетаНУ</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e7ec319f-175a-4da7-9ab9-ba83c98473d6">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>ДокументОснование</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cf13c509-4e08-4920-8330-1e0c7f96677f</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:AnyRef</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5788ba08-3682-48b5-a590-8bbc0a1f655b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СубконтоЗатратНДСБУ1</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3fbd756c-3a2c-4e67-a182-1c914002deec</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.ВидыСубконтоТиповые</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="39143970-33d8-4159-8fb6-e3b620a257b8">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>КорректироватьНДС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3e0664c6-46d2-49e8-a122-892899bc2e80</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="af95c18d-09d0-439a-958c-4a68e2256331">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>f403ec0e-eec3-40e8-bb4a-91efc322ce2c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5929439e-9163-49ba-84ea-66dc9bbf60f1">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Автор</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b5078e7e-ce49-4470-ab78-a8f275dbceb6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="03210edd-a665-40f9-a7ad-351ec2899d67">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СчетЗатратНДСНУ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>c13b14e9-c73e-4058-8e08-ad763d379d1b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:ChartOfAccountsRef.Налоговый</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4bb1abc4-de3f-4fbb-bd9b-d00f58501127">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Основание</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>327b72e9-ff38-49fd-807d-7426261c12c6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="5d77bf2b-1d9a-4186-80fd-2d5860dd5f24">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СубконтоЗатратНДСНУ3</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>cf72000a-4ac0-4b24-be1f-044a0e2e0d67</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.ВидыСубконтоТиповые</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ca6f32dd-6760-409b-af5a-12bf0c172357">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Ответственный</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3235cb0a-1a42-4d8f-aa05-d307dbfc8bd6</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="07313bf6-399f-43cc-a15a-923d17374c4a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>РучнаяКорректировка</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>e2d329d4-d248-4619-a7ae-eb5816649a2a</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="4e6f4776-167c-413a-a0d2-887746c61920">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>Склад</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b7927a3d-4d81-4b1e-909f-f021f412fe76</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Склады</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ec51df59-a7b6-4b62-896c-ed68b7cee2da">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СубконтоЗатратНДСБУ2</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>3527e0f5-1494-4e96-9561-d96921a6fbca</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.ВидыСубконтоТиповые</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="2922c39f-2b33-4375-80e2-388a207c0e7a">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СубконтоЗатратНДСБУ3</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>8f1c6d7f-d136-4da4-9bf5-6e044beef1cd</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.ВидыСубконтоТиповые</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="eb9f5f3c-f24e-4031-b5a6-0cf22e6b2f24">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СубконтоЗатратНДСНУ1</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>00c98537-8234-4cb6-aed7-e1849048c306</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.ВидыСубконтоТиповые</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="8c421bda-cb31-4c92-b5f9-133be5d164ea">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СубконтоЗатратНДСНУ2</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>7e6a175e-4cac-4fc4-8b06-f6bafbcf5995</ExtendedConfigurationObject>
+					<Type>
+						<v8:TypeSet>cfg:Characteristic.ВидыСубконтоТиповые</v8:TypeSet>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="c7901624-7ef4-4ad5-b95b-2e4e1906077b">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СуммаДокумента</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>b860a10d-8677-43df-b09c-84b3236b1776</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:decimal</v8:Type>
+						<v8:NumberQualifiers>
+							<v8:Digits>15</v8:Digits>
+							<v8:FractionDigits>2</v8:FractionDigits>
+							<v8:AllowedSign>Nonnegative</v8:AllowedSign>
+						</v8:NumberQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="da03a77a-4bc0-45ef-bb91-fc78962b2b4d">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СчетЗатратНДСБУ</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>41c17601-eb06-47ea-a17d-1c047252c06c</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:ChartOfAccountsRef.Типовой</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3120fb09-7e20-4d1e-a0ec-5139deed9bbe">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>УчитыватьНДС</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>538b6622-96c0-4bab-a7a7-6a22629f57ac</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="bd65af19-2391-41dc-bd36-1360c64a5803">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>УчитыватьКПН</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>521c1123-ed3d-473a-93de-db502e27b8b5</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="3c3dcfe0-d7fd-4dfb-a811-f217c4db44e4">
+				<InternalInfo/>
+				<Properties>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<Name>СтруктурноеПодразделение</Name>
+					<Comment/>
+					<ExtendedConfigurationObject>d4e8a102-1057-46cb-9902-3ca72ae91a78</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаСписка</Form>
+			<Form>ФормаДокумента</Form>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>
